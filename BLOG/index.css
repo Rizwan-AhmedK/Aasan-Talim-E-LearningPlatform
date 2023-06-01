@@ -1,0 +1,297 @@
+
+
+	.blog-main{
+		width: 100%;
+		display: flex;
+		background-color: #E8E8E8;
+	
+	}
+
+	.blog-left-side{
+		width: 70%;
+		margin: 10px;
+		
+	}
+
+	.blog-center{
+		width: 30%;
+		float: left;
+		margin: 10px;
+		
+
+	}
+
+	.slider-heading{
+   width: 100%; 
+   background-color: black; 
+   display: inline-block; 
+   margin-top: 60px; 
+   border-left: 20px solid #FF9D00;
+   color: white;
+}
+
+.slider-heading > h1{
+  margin-left: 10px;
+}
+
+.slider-heading h1 > i{
+  font-size: 60px;
+  color: #FF9D00;
+}
+
+
+	.blog-search{
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 20px;
+		
+	}
+
+	.b-search{
+		padding: 10px;
+		border-radius: 5px;
+		width: 60%;
+		margin-left: 100px;
+		font-size: 20px;
+		border: 1px solid blue;
+
+	}
+
+	.blog-search > button {
+		background-color: blue;
+		border-radius: 5px;
+		padding: 10px 18px;
+		border: 1px solid blue;
+		color: white;
+		font-size: 20px;
+
+	}
+
+	.blog-recent-post{
+		width: 100%;
+	background-color: white;		
+		margin-top: 10px;
+		display: flex;
+
+
+	}
+
+
+	.blog-recent-post:hover{
+		border-bottom: 5px solid orange;
+
+	}
+
+	.blog-recent-post-img > img{
+		border-radius: 5px;
+	}
+
+	.blog-recent-post-img{
+		width: 20%;
+		height: 100%;
+	}
+
+	.blog-more-btn{
+		width: 30%;
+		
+	}
+
+	.recent-post-description{
+		width: 70%;
+		float: right;
+		margin: 5px;
+		line-height: 1;
+		text-align: justify;
+	}
+
+	.blog-more-btn button{
+		border-radius: 5px;
+		padding: 12px 50px;
+		margin-bottom: 5px;
+		color: white;
+		background-color: black;
+		opacity: 0.9;
+		transition: transform 1s;
+		
+	}
+
+	.blog-more-btn button:hover{
+		transform: scale(1.2);
+	}
+
+
+	.recent-learn-more-btn{
+		width: 100%; 
+		padding: 5px; 
+		background-color: black; 
+		color: white; 
+		border-radius: 5px;
+		transition: transform 1s
+	}
+
+	.recent-learn-more-btn:hover{
+		transform: scale(1.1);
+	}
+
+	.top-div-text {
+      color: #f2f2f2;
+      padding: 8px 12px;
+      position: absolute;
+      top: 55%;
+      width: 100%;
+      text-align: center;
+    }
+
+    .top-div-text > button {
+    	padding: 14px 35px;
+    	color: white;
+    	border: 2px solid white;
+    	background-color: black;
+    	font-size: 20PX;
+    	opacity: 0.7;
+    	border-radius: 5px;
+    	cursor: pointer;
+    	transition: transform .2s; /* Animation */
+
+
+    }
+
+
+
+    .top-div-text > button:hover{
+    	opacity: 1;
+    	transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    	
+    }
+
+    .post-icons{
+    	font-size: 12px;
+    	color: black;
+    	margin: 5px;
+    }
+
+    .post-icons > i{
+    	margin: 3px;
+    	margin-left: 10px;
+    }
+
+    .post-slider{
+    	width: 100%;
+    	display: flex;
+    	
+    	
+    }
+
+    .post-slider-card{
+    	width: 50%;
+    	margin: 10px;
+    	float: right;
+    	position: relative;
+  		text-align: center;
+  		color: white;
+    	transition: transform .2s; /* Animation */
+    }
+
+    .post-slider-card:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  z-index: 1;
+}
+
+   
+
+
+
+    .post-div-text {
+      position: absolute;
+  		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+    }
+
+
+
+    .post-div-text > button {
+    	padding: 14px 35px;
+    	color: white;
+    	border: 2px solid white;
+    	background-color: black;
+    	font-size: 20PX;
+    	opacity: 0.7;
+    	border-radius: 5px;
+    	cursor: pointer;
+    	transition: transform .2s;
+
+    }
+
+    .post-div-text > button:hover{
+    	opacity: 1;
+    	transform :scale(1.2);
+    	
+    }
+
+@media screen and (max-width: 1040px){
+	.blog-search{
+		width: 80%;
+	}
+
+	.b-search{
+		width: 50%;
+	}
+
+	.post-slider{
+		display: block;
+		margin: 0;
+		width: 100%;
+	}
+
+	.post-slider-card{
+		width: 100%;
+	}
+
+	.blog-main{
+		
+		display: block;
+	
+	}
+
+	.blog-left-side{
+		width: 100%;
+		
+	}
+
+	.blog-center{
+		width: 100%;
+		float: none;
+	}
+
+	.top-div-text {
+      position: absolute;
+      top: 80%;
+      width: 100%;
+    }
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 600px){
+	.blog-search{
+		width: 90%;
+		font-size: 10px;
+	}
+
+	.b-search{
+		width: 40%;
+		font-size: 10px;
+		margin-left: 100px;
+	}
+
+	.blog-search > button{
+		font-size: 10px;
+	}
+
+}

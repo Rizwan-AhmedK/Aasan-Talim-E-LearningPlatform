@@ -1,0 +1,242 @@
+
+
+
+		.team-column {
+  float: left;
+  width: 20%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  background-color: white;
+  color: black;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.image{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.image img{
+	height: 230px;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 1040px) {
+  .team-column {
+    width: 33.3%;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .team-column {
+    width: 50%;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .team-column {
+    width: 100%;
+    display: block;
+  }
+}
+
+
+.slider-heading{
+   width: 100%; 
+   background-color: black; 
+   display: inline-block; 
+   margin-top: 60px; 
+   border-left: 20px solid orange;
+   color: white;
+}
+
+.slider-heading > h1{
+  margin-left: 10px;
+}
+
+.slider-heading h1 > i{
+  font-size: 60px;
+  color: orange;
+}
+.vision{
+	width: 100%;
+	color: black;
+	padding: 20px;
+	text-align: justify;
+	font-size: 30px;
+	background-color: white;
+	border-bottom: 5px solid black;
+}
+
+.mission{
+	width: 100%;
+	color: black;
+	padding: 20px;
+	text-align: justify;
+	font-size: 30px;
+	background-color: white;
+	border-bottom: 5px solid black;
+}
+
+.founders{
+	display: flex;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+
+button > i{
+	background-color: white;
+	color: black;
+}
+
+.founder-1{
+	margin: auto;
+	width: 45%;
+	display: flex;
+	padding: 10px;
+	/*background-color: rgba(0, 0, 0, 0.9);*/
+	background-color: white;
+}
+
+.founder-2{
+	margin: auto;
+	width: 45%;
+	display: flex;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+.rizwan-pic{
+	width: 45%;
+	margin: auto;
+}
+
+.afaq-pic{
+	width: 45%;
+	margin: auto;
+}
+
+.rizwan-detail{
+	width: 80%;
+	float: right;
+	margin: auto;
+}
+
+.afaq-detail{
+	width: 80%;
+	float: right;
+	margin: auto;
+}
+
+.rizwan-pic img{
+	width: 80%;
+	height: 280px;
+}
+
+.afaq-pic img{
+	width: 80%;
+	height: 280px;
+}
+
+
+.rizwan-detail p{
+	text-align: justify;
+}
+
+.afaq-detail p{
+	text-align: justify;
+}
+
+
+.rizwan-detail > button{
+	padding: 5px 12px;
+	background-color: black;
+	color: white;
+}
+
+.afaq-detail > button{
+	padding: 5px 12px;
+	background-color: black;
+	color: white;
+}
+
+
+
+@media screen and (max-width: 840px) {
+	.founder-1{width: 90%; display: block; background-color: unset;}
+	.founder-2{width: 90%; display: block; background-color: unset;}
+	.founders{width: 100%; display: block;}
+	.rizwan-detail{width: 100%;}
+	.afaq-detail{width: 100%;}
+	.rizwan-pic img{height: 180px;}
+	.afaq-pic img{height: 180px;}
+}
+
+@media screen and (max-width: 768px) {
+	.founder-1{width: 90%; display: block; background-color: unset;}
+	.founder-2{width: 90%; display: block; background-color: unset;}
+	.founders{width: 100%; display: block;}
+	.rizwan-detail{width: 100%;}
+	.afaq-detail{width: 100%;}
+	.rizwan-pic img{height: 180px;}
+	.afaq-pic img{height: 180px;}
+}
+
+@media screen and (max-width: 600px) {
+	.founder-1{width: 90%; display: block; background-color: unset;}
+	.founder-2{width: 90%; display: block; background-color: unset;}
+	.founders{width: 100%; display: block;}
+	.rizwan-detail{width: 100%;}
+	.afaq-detail{width: 100%;}
+	.rizwan-pic img{height: 180px;}
+	.afaq-pic img{height: 180px;}
+}
+
+
+
+
+
+
+
+
+

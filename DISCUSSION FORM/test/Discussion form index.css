@@ -1,0 +1,67 @@
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+  .subject-button_container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.subject-btn {
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  background-color: red;
+  padding: 20px 57px;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+}
+
+.subject-btn > span {
+  position: relative; 
+  z-index: 1;
+}
+
+.subject-btn:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 490%;
+  width: 140%;
+  background: #222;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(180deg);
+}
+
+.subject-btn:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(180deg);
+}
+
+.discussion-categories-menu{
+	width: 20%;
+	background-image: url("pattern.jpg");
+	height: 100vh;
+	padding: 10px;
+	overflow-y: scroll;
+}
+
+
+
+
+

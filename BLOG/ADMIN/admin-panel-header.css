@@ -1,0 +1,36 @@
+*{
+	box-sizing: border-box;
+}
+
+.blog-admin-navbar{
+	margin: 0;
+	padding: 0;
+}
+
+.blog-admin-navbar a{
+	text-decoration: none;
+	color: white;
+	background-color: red;
+	padding: 10px;
+	border-radius: 5px;
+
+}
+
+.blog-admin-navbar ul, li{
+	padding: 10px;
+	background-color: black;
+	color: white;
+	list-style: none;
+	float: left;	
+}
+
+.blog-admin-navbar > ul{
+	width: 100%;
+	border-bottom: 10px solid orange;
+	margin-bottom: 10px;
+
+}
+
+.blog-admin-navbar a:active{
+	background-color: blue;
+	}
