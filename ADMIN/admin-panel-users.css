@@ -1,0 +1,32 @@
+*{
+	box-sizing: border-box;
+}
+
+.users-data-table{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.users-data-table > table{
+	width: 100%;
+	padding: 20px;
+	margin: 10px
+}
+
+tr > th{
+	background-color: black;
+	color: white;
+	padding: 10px;
+}
+
+tr > td{
+	background-color: #ddd;
+	padding: 10px;
+	text-align: center;
+}
+
+.fa{
+	cursor: pointer;
+}
+
